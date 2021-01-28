@@ -28,5 +28,19 @@ export const Container = styled.header`
         align-items: center;
       }
     }
+
+    .search-input {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      input {
+        width: 100%;
+        background: none;
+        border: none;
+        color: #fff;
+      }
+    }
   }
 `;
