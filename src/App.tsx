@@ -1,25 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import Header from './components/Header';
+import Routes from './routes';
 import GlobalStyles from './styles/global';
 
-const Container = styled.div`
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-`;
+const App: React.FC = () => (
+  <Router>
+    <Routes />
 
-const App: React.FC = () => {
-  return (
-    <Container>
-      <Header />
-
-      <GlobalStyles />
-    </Container>
-  );
-};
+    <GlobalStyles />
+  </Router>
+);
 
 export default App;
