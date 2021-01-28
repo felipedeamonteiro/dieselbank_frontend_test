@@ -9,7 +9,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #e5e5e5;
+    background: #292929;
     height: 100%;
     display: flex;
     flex-direction: column;
