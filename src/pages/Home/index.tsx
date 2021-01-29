@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { parseJsonSourceFileConfigFileContent } from 'typescript';
 import { Container } from './styles';
 import Header from '../../components/Header';
 import Dropdown from '../../components/Dropdown';
@@ -11,7 +10,7 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Header />
-      <Dropdown title="Dropdown" items={items} />
+      <Dropdown title="Dropdown" items={items} multiSelect={false} />
     </Container>
   );
 };

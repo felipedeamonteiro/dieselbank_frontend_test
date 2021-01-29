@@ -1915,6 +1915,13 @@
   dependencies:
     "@types/react" "^16"
 
+"@types/react-onclickoutside@^6.7.3":
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/@types/react-onclickoutside/-/react-onclickoutside-6.7.3.tgz#48708067f88a3ec6673e7ccb6e33463dc81a4846"
+  integrity sha512-ByQX2ns3KlOrOzJBVhQ2VZmQVV6w718TXFVAdCdHBeXMXr5QseQVN+BsOmLf2+KZGz7+Y4ov9jPxRDCDNJZMLg==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-router-dom@^5.1.7":
   version "5.1.7"
   resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.1.7.tgz#a126d9ea76079ffbbdb0d9225073eb5797ab7271"
@@ -9410,6 +9417,11 @@ react-app-polyfill@^2.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
+
+react-cool-onclickoutside@^1.5.9:
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/react-cool-onclickoutside/-/react-cool-onclickoutside-1.5.9.tgz#2484a024a623031e5deb512d42eb2a016c6a8358"
+  integrity sha512-mNuPegHmQInKzTtal+8ye8FKLvX4Xl434N8cmzmasqIr73v+qllb51cdkdpSndh/Aaf2l7g+LZhfOIoyiMFPiw==
 
 react-dev-utils@^11.0.1:
   version "11.0.1"
